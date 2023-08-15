@@ -1,0 +1,11 @@
+{
+  "name": "tsup-cjs-default-export",
+  "type": "module",
+  "scripts": {
+    "build": "tsup --cjsInterop src/index.ts"
+  },
+  "packageManager": "yarn@3.4.1",
+  "devDependencies": {
+    "tsup": "7.2.0"
+  }
+}
